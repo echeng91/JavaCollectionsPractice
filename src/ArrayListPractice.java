@@ -18,6 +18,7 @@ public class ArrayListPractice {
 				favoriteThings.add(favorite);
 			}
 		}
+		sc.close();
 		System.out.println("\nSorted\n");
 		Collections.sort(favoriteThings);
 		for(String thing: favoriteThings)
